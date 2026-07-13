@@ -6,6 +6,7 @@
 
 body {
     height: 2000px;
+    background-color: #800020;
 }
 
 .home-page{
@@ -23,6 +24,9 @@ body {
     background-color: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(11px); 
     flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .nav-perant{
@@ -57,4 +61,22 @@ body {
 
 .nav-links ul li a:hover{
     color: black;
+}
+
+.btn-sweet-escape {
+  display: inline-block;
+  background-color: #800020; 
+  color: #FFFFFF;
+  text-decoration: none; 
+  font-size: 25px;
+  padding: 12px 20px; 
+  border-radius: 25px; 
+  border: 2px solid #FFFFFF; 
+  transition: 0.3s;
+  margin-top: 220px;
+  margin-left:15px;
+}
+
+.btn-sweet-escape:hover {
+  background-color: #600018; 
 }
