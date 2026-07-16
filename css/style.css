@@ -63,6 +63,17 @@ body {
   color: black;
 }
 
+.home-title {
+  font-size: 48px;
+  color:#fffbfb;
+}
+
+.home-title h1 {
+  padding-top:200px;
+  padding-bottom: 20px;
+  margin-left:45px;
+}
+
 .btn-sweet-escape {
   display: inline-block;
   background-color: #800020; 
@@ -73,8 +84,7 @@ body {
   border-radius: 25px; 
   border: 2px solid #FFFFFF; 
   transition: 0.3s;
-  margin-top: 300px;
-  margin-left:45px;
+  margin-left:150px;
 }
 
 .btn-sweet-escape:hover {
@@ -420,7 +430,3 @@ body {
 .twitter:hover {
   background-color: #1DA1F2;
 }
-
-
-
-
