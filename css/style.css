@@ -254,7 +254,7 @@ body {
 /* /////////////////////////////////////////////////////////////////////////////////////////// */
 
 .contact-section {
-  padding: 50px 50px;
+  padding: 50px 50px 100px 50px;
 }
 
 .contact-parent {
@@ -373,13 +373,13 @@ body {
 
 .footer-logo {
   color: #FFFFFF;
-  font-size: 40px; 
+  font-size: 50px; 
   font-weight: 600;
   margin-bottom: 20px; 
 }
 
 .footer-logo i {
-  font-size: 40px;
+  font-size: 50px;
   margin-right: 2px;
 }
 
@@ -389,19 +389,38 @@ body {
 }
 
 .footer-icons p {
-  width: 36px; /* حجم دائرة صغير وأنيق */
-  height: 36px;
-  background-color: rgba(255, 255, 255, 0.06); /* دائرة شفافة ناعمة وبسيطة */
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.06); 
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 6px; /* مسافات جانبية ضيقة وأنيقة تفصل الدوائر */
+  margin: 7px; 
+  transform: 3s;
 }
 
-/* الأيقونة الداخلية البيضاء */
 .footer-icons p i {
   color: #FFFFFF;
-  font-size: 14px; /* حجم رقيق وصغير للايقونة */
+  font-size: 20px;
 }
+
+.facebook:hover {
+  background-color: #1877F2;
+}
+
+.instagram:hover {
+  background-color: #E1306C;
+}
+
+.whatsapp:hover {
+  background-color: #25D366;
+}
+
+.twitter:hover {
+  background-color: #1DA1F2;
+}
+
+
+
 
