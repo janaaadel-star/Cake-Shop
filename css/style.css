@@ -327,4 +327,106 @@ body {
 
 /* ///////////////////////////////////////////////////////////////////////////////////////// */
 
+.footer-section {
+  background-color: #7b0321; 
+  padding: 60px 50px 0px 50px; 
+}
+
+.footer-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 40px; /* مسافة داخلية مريحة تحت الأعمدة */
+}
+
+/* العمود الفردي مع توسيط النصوص بالظبط */
+.footer {
+  width: 28%; /* مساحات متناسقة وبراح رائع بين الأعمدة */
+  text-align: center; /* توسيط كل النصوص والعناوين بالملي */
+}
+
+/* عناوين الأعمدة باللون الأبيض الناصع */
+.footer-title {
+  color: #FFFFFF;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+}
+
+/* النصوص العادية داخل الأعمدة باللون الكريمي الناعم */
+.footer-text {
+  color: #F5EBE6; 
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+/* إلغاء هامش آخر عنصر نصوص لضبط الأبعاد بدقة */
+.footer-text:last-child {
+  margin-bottom: 0;
+}
+
+
+/* ======================================= */
+/* 2. تنسيق الجزء السفلي (نحيف وأنيق وسليك) */
+/* ======================================= */
+
+.footer-bottom-section {
+  background-color: #5C0017; /* اللون البيرجندي الداكن والمختلف بتباين ناعم وفخم */
+  padding: 30px 50px; /* مسافة رأسية صغيرة جداً لضمان النحافة والشياكة */
+  margin-top: 0; /* التزام الالتصاق التام بالسكشن العلوي */
+}
+
+/* الحاوية الداخلية لتوسيط اللوجو والأيقونات */
+.footer-bottom {
+  display: flex;
+  flex-direction: column; /* ترتيب اللوجو ثم الأيقونات تحت بعض */
+  align-items: center; 
+  text-align: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* اللوجو الناعم */
+.footer-logo {
+  color: #FFFFFF;
+  font-size: 20px; /* حجم هادئ وراقٍ جداً */
+  font-weight: 600;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 15px; /* مسافة صغيرة للأيقونات بالأسفل */
+  letter-spacing: 0.5px;
+}
+
+/* أيقونة اللوجو الشمعة الذهبية الدافئة */
+.footer-logo i {
+  color: #FFD700; 
+  font-size: 18px;
+  margin-right: 6px;
+}
+
+/* حاوية الأيقونات الدائرية */
+.footer-icons {
+  display: flex;
+  justify-content: center;
+}
+
+/* تصميم الدوائر الصغيرة الناعمة حول الأيقونات */
+.footer-icons p {
+  width: 36px; /* حجم دائرة صغير وأنيق */
+  height: 36px;
+  background-color: rgba(255, 255, 255, 0.06); /* دائرة شفافة ناعمة وبسيطة */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 6px; /* مسافات جانبية ضيقة وأنيقة تفصل الدوائر */
+}
+
+/* الأيقونة الداخلية البيضاء */
+.footer-icons p i {
+  color: #FFFFFF;
+  font-size: 14px; /* حجم رقيق وصغير للايقونة */
+}
 
